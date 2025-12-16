@@ -13,11 +13,8 @@ def start(update: Update, context: CallbackContext):
     keyboard = [["🌀 Интеллектуальная охота"], ["📊 Прогресс"]]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     update.message.reply_text(
-        "🌀 Curly Meme: Context Hunt
-
-"
-        "Философия, культура, немного техники.
-"
+        "🌀 Curly Meme: Context Hunt"
+        "Философия, культура, немного техники."
         "Жми «🌀 Интеллектуальная охота», чтобы начать.",
         reply_markup=reply_markup,
     )
