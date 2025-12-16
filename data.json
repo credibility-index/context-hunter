@@ -1,0 +1,116 @@
+{
+  "A2": {
+    "texts": [
+      {
+        "text": "In the *museum*, we saw paintings by famous *artists*. The *guide* told stories about their *creativity*. We felt inspired.",
+        "words": [
+          {"word": "museum", "ru": "музей", "quiz": ["музей", "театр", "кино"]},
+          {"word": "creativity", "ru": "творчество", "quiz": ["творчество", "работа", "учёба"]}
+        ]
+      },
+      {
+        "text": "At the *theater*, actors performed a beautiful *play*. The *audience* applauded at the end.",
+        "words": [
+          {"word": "theater", "ru": "театр", "quiz": ["театр", "кино", "парк"]},
+          {"word": "audience", "ru": "зрители", "quiz": ["зрители", "актёры", "режиссёр"]}
+        ]
+      }
+    ]
+  },
+  "B1": {
+    "texts": [
+      {
+        "text": "Socrates believed in asking *questions* to find *truth*. His *philosophy* influences thinkers even today.",
+        "words": [
+          {"word": "philosophy", "ru": "философия", "quiz": ["философия", "математика", "история"]},
+          {"word": "truth", "ru": "истина", "quiz": ["истина", "ложь", "мечта"]}
+        ]
+      },
+      {
+        "text": "During *vacation*, I read a book about *culture*. It changed my *perspective* on life.",
+        "words": [
+          {"word": "vacation", "ru": "отпуск", "quiz": ["отпуск", "работа", "школа"]},
+          {"word": "perspective", "ru": "взгляд", "quiz": ["взгляд", "книга", "путешествие"]}
+        ]
+      },
+      {
+        "text": "The first *computer* was as big as a room. Alan Turing created the idea of *programming* in 1936.",
+        "words": [
+          {"word": "computer", "ru": "компьютер", "quiz": ["компьютер", "телефон", "калькулятор"]},
+          {"word": "programming", "ru": "программирование", "quiz": ["программирование", "рисование", "письмо"]}
+        ]
+      }
+    ]
+  },
+  "C1": {
+    "texts": [
+      {
+        "text": "Nietzsche's *nihilism* challenges traditional *morality*. He urged us to create our own *values* beyond good and evil.",
+        "words": [
+          {"word": "nihilism", "ru": "нигилизм", "quiz": ["нигилизм", "оптимизм", "патриотизм"]},
+          {"word": "morality", "ru": "мораль", "quiz": ["мораль", "законы", "традиции"]}
+        ]
+      },
+      {
+        "text": "The *entrepreneur* pitched his *startup* to *investors*. He emphasized *scalability* and unique value.",
+        "words": [
+          {"word": "entrepreneur", "ru": "предприниматель", "quiz": ["предприниматель", "работник", "ученик"]},
+          {"word": "scalability", "ru": "масштабируемость", "quiz": ["масштабируемость", "стабильность", "скорость"]}
+        ]
+      },
+      {
+        "text": "Linux *kernel* powers 96% of top web servers. Linus Torvalds wrote it as a student in 1991.",
+        "words": [
+          {"word": "kernel", "ru": "ядро", "quiz": ["ядро", "оболочка", "программа"]},
+          {"word": "servers", "ru": "серверы", "quiz": ["серверы", "компьютеры", "телефоны"]}
+        ]
+      }
+    ]
+  },
+  "C2": {
+    "texts": [
+      {
+        "text": "Postmodern *deconstruction* reveals hidden *power structures* in language. Derrida questioned absolute *meaning*.",
+        "words": [
+          {"word": "deconstruction", "ru": "деконструкция", "quiz": ["деконструкция", "строительство", "анализ"]},
+          {"word": "meaning", "ru": "смысл", "quiz": ["смысл", "слово", "символ"]}
+        ]
+      },
+      {
+        "text": "Kant's *categorical imperative* demands universal *maxims*. Morality transcends empirical *experience*.",
+        "words": [
+          {"word": "imperative", "ru": "императив", "quiz": ["императив", "совет", "просьба"]},
+          {"word": "maxims", "ru": "максимы", "quiz": ["максимы", "законы", "примеры"]}
+        ]
+      },
+      {
+        "text": "Sartre's *existentialism* claims existence precedes *essence*. We create meaning through *freedom*.",
+        "words": [
+          {"word": "existentialism", "ru": "экзистенциализм", "quiz": ["экзистенциализм", "оптимизм", "религия"]},
+          {"word": "freedom", "ru": "свобода", "quiz": ["свобода", "обязанность", "традиция"]}
+        ]
+      },
+      {
+        "text": "Bitcoin *blockchain* processes 7 transactions per second. Satoshi Nakamoto published the whitepaper in 2008.",
+        "words": [
+          {"word": "blockchain", "ru": "блокчейн", "quiz": ["блокчейн", "банк", "база данных"]},
+          {"word": "transactions", "ru": "транзакции", "quiz": ["транзакции", "сообщения", "файлы"]}
+        ]
+      },
+      {
+        "text": "Python was created by Guido van Rossum in 1991. It's used by *NASA*, Google, and Instagram.",
+        "words": [
+          {"word": "created", "ru": "создан", "quiz": ["создан", "куплен", "найден"]},
+          {"word": "used", "ru": "используется", "quiz": ["используется", "хранится", "продаётся"]}
+        ]
+      },
+      {
+        "text": "REST *API* enables communication between services. It follows stateless *principles* defined by Roy Fielding.",
+        "words": [
+          {"word": "API", "ru": "АПИ", "quiz": ["АПИ", "HTML", "CSS"]},
+          {"word": "principles", "ru": "принципы", "quiz": ["принципы", "правила", "законы"]}
+        ]
+      }
+    ]
+  }
+}
