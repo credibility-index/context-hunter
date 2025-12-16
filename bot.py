@@ -23,14 +23,8 @@ def hunt(update: Update, context: CallbackContext):
     # Берём любой B1‑текст
     texts = DATA["B1"]["texts"]
     text = texts[0]["text"]
-    update.message.reply_text(
-        f"📖 Текст уровня B1:
-
-{text}
-
-"
-        "Пока просто читаем. Позже добавим квиз 🙂"
-    )
+    update.message.reply_text(f"📖 Текст уровня B1:{text}"
+        "Пока просто читаем. Позже добавим квиз 🙂")
 
 def text_handler(update: Update, context: CallbackContext):
     msg = update.message.text
