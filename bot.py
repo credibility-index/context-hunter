@@ -14,17 +14,25 @@ def start(update: Update, context: CallbackContext):
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     update.message.reply_text(
         "🌀 Curly Meme: Context Hunt"
+        
         "Философия, культура, немного техники."
+        
         "Жми «🌀 Интеллектуальная охота», чтобы начать.",
-        reply_markup=reply_markup,
-    )
+        reply_markup=reply_markup, )
+
+import random
 
 def hunt(update: Update, context: CallbackContext):
-    # Берём любой B1‑текст
-    texts = DATA["B1"]["texts"]
-    text = texts[0]["text"]
-    update.message.reply_text(f"📖 Текст уровня B1:{text}"
-        "Пока просто читаем. Позже добавим квиз 🙂")
+    # собираем все тексты из всех уровней
+    all_texts = []
+    for level in DATA.keys():
+        for t in DATA[level]["texts"]:
+            all_texts.append((level, t["text"]))
+    level, text = random.choice(all_texts)
+
+    update.message.reply_text(
+        f"📖 Текст уровня {level}:
+{text}" "Пока просто читаем. Позже добавим квиз 🙂")
 
 def text_handler(update: Update, context: CallbackContext):
     msg = update.message.text
